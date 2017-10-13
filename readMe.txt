@@ -1,18 +1,18 @@
-1、从数据库查询记录生成json数组
+1、get list from  api
 http://localhost/restfulDemo/api/api/list
-2、不查询数据库直接返回信息
+2、get data from  database 
 http://localhost/restfulDemo/api/api/index
 
 
-配置
+config
 
-1、数据库配置
+1、database config
 res/jdbc.txt
 
-2、程序主控制器
+2、api index
 src/com/tm/common/config/DruidConfig.java
 
 
-其他说明
-com/tm/api 	存放业务代码
-com/tm/pojo	数据库操作
+other declare
+com/tm/api 	service code
+com/tm/pojo	database code
